@@ -28,6 +28,7 @@
           <thead>
             <tr>
               <td class="text-center">{{ column_order_id }}</td>
+              <td class="text-center">{{ column_custom_order_id }}</td>
               <td class="text-center">{{ column_customer }}</td>
               <td class="text-center">{{ column_product }}</td>
               <td class="text-center">{{ column_status }}</td>
@@ -40,6 +41,7 @@
            {% for order in orders %}
             <tr>
               <td class="text-center">#{{ order.order_id }}</td>
+              <td class="text-right">{{ order.custom_order_id }}</td>
               <td class="text-center">{{ order.name }}</td>
               <td class="text-center">{{ order.products }}</td>
               <td class="text-center">{{ order.status }}</td>

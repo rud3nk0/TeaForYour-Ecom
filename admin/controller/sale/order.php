@@ -206,6 +206,12 @@ class ControllerSaleOrder extends Controller {
 
 		$data['orders'] = array();
 
+		$data['sort_custom_order_id'] = $this->url->link(
+			'sale/order',
+			'user_token=' . $this->session->data['user_token'] . '&sort=o.custom_order_id' . $url,
+			true
+		);
+
 		$filter_data = array(
 			'filter_order_id'        => $filter_order_id,
 			'filter_customer'	     => $filter_customer,
@@ -227,6 +233,10 @@ class ControllerSaleOrder extends Controller {
 		foreach ($results as $result) {
 			$data['orders'][] = array(
 				'order_id'      => $result['order_id'],
+				// tyt
+				'custom_order_id' => $result['custom_order_id'],
+
+
 				'customer'      => $result['customer'],
 				'order_status'  => $result['order_status'] ? $result['order_status'] : $this->language->get('text_missing'),
 				'total'         => $this->currency->format($result['total'], $result['currency_code'], $result['currency_value']),

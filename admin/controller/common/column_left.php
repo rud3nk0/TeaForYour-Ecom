@@ -7,15 +7,24 @@ class ControllerCommonColumnLeft extends Controller {
 			// Create a 3 level menu array
 			// Level 2 can not have children
 
-			// Menu
+
+		// start logic for route to documentation page
+
+			// Документация
+			$this->load->language('extension/module/documentation');
+
+			$token = isset($this->session->data['user_token']) ? $this->session->data['user_token'] : '';
+			
 			$data['menus'][] = array(
-				'id'       => 'menu-dashboard',
-				'icon'	   => 'fa-dashboard',
-				'name'	   => $this->language->get('text_dashboard'),
-				'href'     => $this->url->link('common/dashboard', 'user_token=' . $this->session->data['user_token'], true),
+				'id'       => 'menu-documentation',
+				'icon'     => 'fa-book',
+				'name'     => $this->language->get('heading_title'),
+				'href'     => $this->url->link('extension/module/documentation', 'user_token=' . $token, true),
 				'children' => array()
 			);
 
+		// end
+			
 			// Catalog
 			$catalog = array();
 

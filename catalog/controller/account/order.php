@@ -54,6 +54,7 @@ class ControllerAccountOrder extends Controller {
 
 			$data['orders'][] = array(
 				'order_id'   => $result['order_id'],
+				'custom_order_id'  => $result['custom_order_id'],
 				'name'       => $result['firstname'] . ' ' . $result['lastname'],
 				'status'     => $result['status'],
 				'date_added' => date($this->language->get('date_format_short'), strtotime($result['date_added'])),

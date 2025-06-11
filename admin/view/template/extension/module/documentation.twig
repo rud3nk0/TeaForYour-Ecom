@@ -5,65 +5,119 @@
 
 <h1>{{ heading_title }}</h1>
 
-<div class="card" style="width: 100rem;">
-  <div class="card-body">
-    <p class="card-text">{{documentation_add_product}}</p>
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+       {{documentation_add_product}}
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <img src="view/image/addProduct.png" class="card-img-top" alt="...">  
+      </div>
+    </div>
   </div>
-  <img src="view/image/addProduct.png" class="card-img-top" alt="...">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        <p class="card-text">{{documentation_general}}</p>
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <img src="view/image/All.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        <p class="card-text">{{documentation_data}}</p>
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <img src="view/image/data.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+        <p class="card-text">{{documentation_link}}</p>
+      </button>
+    </h2>
+    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <img src="view/image/link.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+        <p class="card-text">{{documentation_attribute}}</p>
+      </button>
+    </h2>
+    <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <img src="view/image/attribute.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+        <p class="card-text">{{documentation_option}}</p>
+      </button>
+    </h2>
+    <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <img src="view/image/option.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+        <p class="card-text">{{documentation_image}}</p>
+      </button>
+    </h2>
+    <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <img src="view/image/image.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+        <p class="card-text">{{documentation_seo}}</p>
+      </button>
+    </h2>
+    <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <img src="view/image/seo.png" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </div>
+
 </div>
 
-<div class="card" style="width: 100rem; margin-top: 10px;">
-  <div class="card-body">
-    <p class="card-text">{{documentation_general}}</p>
-  </div>
-  <img src="view/image/all.png" class="card-img-top" alt="...">
-</div>
-
-<div class="card" style="width: 100rem; margin-top: 10px;">
-  <div class="card-body">
-    <p class="card-text">{{documentation_data}}</p>
-  </div>
-    <img src="view/image/data.png" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h2 class="card-text" style="margin-top: 5px;">{{documentation_data_dop}}</h2>
-  </div>
-  <img src="view/image/data_dop.png" class="card-img-top" alt="...">
-</div>
-
-<div class="card" style="width: 100rem; margin-top: 10px;">
-  <div class="card-body">
-    <p class="card-text">{{documentation_link}}</p>
-  </div>
-  <img src="view/image/link.png" class="card-img-top" alt="...">
-</div>
-
-<div class="card" style="width: 100rem; margin-top: 10px;">
-  <div class="card-body">
-    <p class="card-text">{{documentation_attribute}}</p>
-  </div>
-  <img src="view/image/attribute.png" class="card-img-top" alt="...">
-</div>
-
-<div class="card" style="width: 100rem; margin-top: 10px;">
-  <div class="card-body">
-    <p class="card-text">{{documentation_option}}</p>
-  </div>
-  <img src="view/image/option.png" class="card-img-top" alt="...">
-</div>
-
-<div class="card" style="width: 100rem; margin-top: 10px;">
-  <div class="card-body">
-    <p class="card-text">{{documentation_image}}</p>
-  </div>
-  <img src="view/image/image.png" class="card-img-top" alt="...">
-</div>
+{#
 
 <div class="card" style="width: 100rem; margin-top: 10px;">
   <div class="card-body">
     <p class="card-text">{{documentation_seo}}</p>
   </div>
   <img src="view/image/seo.png" class="card-img-top" alt="...">
-</div>
+</div> #}
 
 
 

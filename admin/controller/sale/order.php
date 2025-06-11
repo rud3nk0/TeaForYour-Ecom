@@ -232,9 +232,9 @@ class ControllerSaleOrder extends Controller {
 
 		foreach ($results as $result) {
 			$data['orders'][] = array(
-				'order_id'      => $result['order_id'],
+				'order_id' => 'TFY-' . str_pad($result['order_id'], 4, '0', STR_PAD_LEFT),
 				// tyt
-				'custom_order_id' => $result['custom_order_id'],
+				// 'custom_order_id' => $result['custom_order_id'],
 
 
 				'customer'      => $result['customer'],
@@ -419,6 +419,10 @@ class ControllerSaleOrder extends Controller {
 		if (isset($this->request->get['filter_order_id'])) {
 			$url .= '&filter_order_id=' . $this->request->get['filter_order_id'];
 		}
+
+		// if (isset($this->request->get['filter_order_id'])) {
+		// 	$url .= '&filter_custom_order_id=' . $this->request->get['filter_custom_order_id'];
+		// }
 
 		if (isset($this->request->get['filter_customer'])) {
 			$url .= '&filter_customer=' . urlencode(html_entity_decode($this->request->get['filter_customer'], ENT_QUOTES, 'UTF-8'));

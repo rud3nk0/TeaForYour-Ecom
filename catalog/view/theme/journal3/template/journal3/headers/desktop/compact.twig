@@ -12,27 +12,40 @@
         </div>
       </div>
     {% endif %}
+
     <div class="third-menu">{{ j3.settings.get('desktop_top_menu_3') }}</div>
+
     {% if j3.settings.get('secondaryMenuPosition') == 'top' %}
       <div class="top-menu secondary-menu">{{ j3.settings.get('desktop_top_menu_2') }}</div>
     {% endif %}
   </div>
+
   <div class="mid-bar navbar-nav">
+    {# ✅ ЛОГО СНАЧАЛА #}
     <div class="desktop-logo-wrapper">
       <div id="logo">
-        {% if j3.settings.get('logo_src') %}
+        {% if j3.settings.get('logo_src') %}                        
           <a href="{{ home }}">
-            <img src="{{ j3.settings.get('logo_src') }}" {% if j3.settings.get('logo2x_src') %}srcset="{{ j3.settings.get('logo_src') }} 1x, {{ j3.settings.get('logo2x_src') }} 2x"{% endif %} width="{{ j3.settings.get('logo_width') }}" height="{{ j3.settings.get('logo_height') }}" alt="{{ name }}" title="{{ name }}"/>
+            <img src="{{ j3.settings.get('logo_src') }}"
+                 {% if j3.settings.get('logo2x_src') %}
+                   srcset="{{ j3.settings.get('logo_src') }} 1x, {{ j3.settings.get('logo2x_src') }} 2x"
+                 {% endif %}
+                 width="{{ j3.settings.get('logo_width') }}"
+                 height="{{ j3.settings.get('logo_height') }}"
+                 alt="{{ name }}" title="{{ name }}"/>
           </a>
         {% else %}
           <h1><a href="{{ home }}">{{ name }}</a></h1>
         {% endif %}
       </div>
     </div>
+
+    {# ✅ МЕНЮ ПОСЛЕ ЛОГОТИПА #}
     <div class="desktop-main-menu-wrapper navbar-nav">
       {{ j3.document.hasClass('mobile-header-active') ? '' : j3.settings.get('desktop_main_menu') }}
     </div>
 
+    {# ✅ ОСТАЛЬНОЕ (поиск, корзина и т.п.) #}
     <div class="header-cart-group">
       {% if j3.settings.get('langPosition') == 'search' %}
         <div class="language-currency top-menu">
@@ -44,18 +57,46 @@
           </div>
         </div>
       {% endif %}
+
       {% if j3.settings.get('secondaryMenuPosition') == 'cart' %}
         <div class="top-menu secondary-menu">{{ j3.settings.get('desktop_top_menu_2') }}</div>
       {% endif %}
+
       {% if j3.settings.get('catalogSearchStatus') %}
-      <div class="desktop-search-wrapper mini-search">
-        {{ search }}
-      </div>
+        <div class="desktop-search-wrapper mini-search">
+          {{ search }}
+        </div>
       {% endif %}
+
       <div class="desktop-cart-wrapper">
         {{ cart }}
       </div>
     </div>
   </div>
 </div>
+<style>
+  .module-master_slider-26 .ms-bullet-selected{
+    width: 63px !important;
+  }
+  .grid-row-top-3{
+    background:rgba(0, 0, 0, 0.12) !important;
+  }
 
+  .product-thumb{
+    width: 315px!important;
+    height: 481px!important;
+    margin-right: 10px!important;
+    background: #212122!important;
+    border: none!important;
+    padding: 0px!important;
+  }
+
+  .btn-wishlist:hover{
+  color: #F35196!important;
+}
+
+.product-label-default.product-label-29{
+  margin: 0!important;
+  padding: 0!important;
+}
+</style>

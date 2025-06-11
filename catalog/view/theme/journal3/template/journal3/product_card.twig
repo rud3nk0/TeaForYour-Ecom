@@ -6,6 +6,7 @@
     'has-zero-price': not product.price_value,
     'has-extra-button': product.extra_buttons,
   }) %}
+
   <div class="product-layout {{ j3.classes(product.classes) }} {{ classes }}">
     <div class="product-thumb">
       {% if (j3.settings.getIn(prefix ~ 'NamePosition', _context) == "image") %}
@@ -62,28 +63,44 @@
           </div>
         {% endif %}
 
-        {% if (j3.settings.getIn(prefix ~ 'NamePosition', _context) == "default") %}
-          <div class="name"><a href="{{ product.href }}">{{ product.name }}</a></div>
-        {% endif %}
-
-        <div class="description">{{ product.description }}</div>
-
-        {% if product.price %}
-          <div class="price">
-            <div>
-              {% if product.special %}
-                <span class="price-new">{{ product.special }}</span> <span class="price-old">{{ product.price }}</span>
-              {% else %}
-                <span class="price-normal">{{ product.price }}</span>
+        <div class="custom_block"> 
+          <div class="block_left"> 
+              {% if (j3.settings.getIn(prefix ~ 'NamePosition', _context) == "default") %}
+                <div class="name"><a href="{{ product.href }}">{{ product.name }}</a></div>
               {% endif %}
-            </div>
-            {% if product.tax %}
-              <span class="price-tax">{{ text_tax }}{{ product.tax }}</span>
+
+            <div class="description">{{ product.description }}</div>
+
+            {% if product.price %}
+              <div class="price">
+                <div>
+                  {% if product.special %}
+                    <span class="price-new">{{ product.special }}</span> <span class="price-old">{{ product.price }}</span>
+                  {% else %}
+                    <span class="price-normal">{{ product.price }}</span>
+                  {% endif %}
+                </div>
+                {% if product.tax %}
+                  <span class="price-tax">{{ text_tax }}{{ product.tax }}</span>
+                {% endif %}
+              </div>
             {% endif %}
           </div>
-        {% endif %}
+          <div class="block_right"> 
+              {% if j3.settings.get('catalogWishlistStatus') or j3.settings.get('catalogCompareStatus') %}
+                <div class="wish-group">
+                  {% if j3.settings.get('catalogWishlistStatus') %}
+                  <a class="btn btn-wishlist" {% if (j3.settings.getIn(prefix ~ 'WishlistDisplay', _context) == "icon") and (j3.settings.getIn(prefix ~ 'WishlistTooltipStatus', _context)) %} data-toggle="tooltip" data-tooltip-class="{{ module_id ? 'module-products-' ~ module_id ~ ' module-products-grid' : 'product-grid' }} wishlist-tooltip" data-placement="{{ j3.settings.getIn(prefix ~ 'WishlistTooltipPosition', _context) }}" title="{{ button_wishlist }}" {% endif %} onclick="wishlist.add('{{ product.product_id }}')"><span class="btn-text">{{ button_wishlist }}</span></a>
+                  {% endif %}
+                </div>
+              {% endif %}
+          </div>
+        </div>
+          
 
-        {% if product.rating %}
+        
+
+        {# {% if product.rating %}
           <div class="rating {% if (j3.settings.getIn(prefix ~ 'RatingPosition', _context) == "hover") %}rating-hover{% endif %}">
             <div class="rating-stars">
               {% for i in 1..5 %}
@@ -107,7 +124,7 @@
               {% endfor %}
             </div>
           </div>
-        {% endif %}
+        {% endif %} #}
 
         {% if j3.settings.get('catalogCartStatus') or j3.settings.get('catalogWishlistStatus') or j3.settings.get('catalogCompareStatus') %}
         <div class="buttons-wrapper">
@@ -126,22 +143,12 @@
             </div>
             {% endif %}
 
-            {% if j3.settings.get('catalogWishlistStatus') or j3.settings.get('catalogCompareStatus') %}
-            <div class="wish-group">
-              {% if j3.settings.get('catalogWishlistStatus') %}
-              <a class="btn btn-wishlist" {% if (j3.settings.getIn(prefix ~ 'WishlistDisplay', _context) == "icon") and (j3.settings.getIn(prefix ~ 'WishlistTooltipStatus', _context)) %} data-toggle="tooltip" data-tooltip-class="{{ module_id ? 'module-products-' ~ module_id ~ ' module-products-grid' : 'product-grid' }} wishlist-tooltip" data-placement="{{ j3.settings.getIn(prefix ~ 'WishlistTooltipPosition', _context) }}" title="{{ button_wishlist }}" {% endif %} onclick="wishlist.add('{{ product.product_id }}')"><span class="btn-text">{{ button_wishlist }}</span></a>
-              {% endif %}
-
-              {% if j3.settings.get('catalogCompareStatus') %}
-              <a class="btn btn-compare" {% if (j3.settings.getIn(prefix ~ 'CompareDisplay', _context) == "icon") and (j3.settings.getIn(prefix ~ 'CompareTooltipStatus', _context)) %} data-toggle="tooltip" data-tooltip-class="{{ module_id ? 'module-products-' ~ module_id ~ ' module-products-grid' : 'product-grid' }} compare-tooltip" data-placement="{{ j3.settings.getIn(prefix ~ 'CompareTooltipPosition', _context) }}" title="{{ button_compare }}" {% endif %} onclick="compare.add('{{ product.product_id }}')"><span class="btn-text">{{ button_compare }}</span></a>
-              {% endif %}
-            </div>
-            {% endif %}
+            
           </div>
         </div>
         {% endif %}
 
-        {% if product.extra_buttons %}
+        {# {% if product.extra_buttons %}
           <div class="extra-group">
             <div>
               {% for id, extra_button in product.extra_buttons %}
@@ -155,8 +162,89 @@
               {% endfor %}
             </div>
           </div>
-        {% endif %}
+        {% endif %} #}
       </div>
     </div>
   </div>
+
+<style> 
+ {# .product-thumb {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-thumb .image {
+  width: 100%!important;
+  overflow: hidden;
+  margin-bottom: 10px!important;
+}
+
+.product-thumb .product-img img {
+  width: 100%!important;
+  height: auto!important;
+  object-fit: cover!important;
+}
+
+.product-thumb .caption {
+  display: flex!important;
+  flex-direction: column!important;
+  justify-content: flex-start!important;
+  gap: 8px!important;
+  text-align: center!important;
+}
+
+.product-thumb .name a {
+  font-size: 16px!important;
+  font-weight: 600!important;
+  text-transform: uppercase!important;
+  color:rgb(255, 255, 255)!important;
+}
+
+.product-thumb .price {
+  font-size: 14px!important;
+  font-weight: bold!important;
+  color: #ffff!important;
+}
+
+.product-thumb .buttons {
+  margin:0!important;
+  padding:0!important;
+  display: flex!important;
+  justify-content: center!important;
+}
+
+.product-thumb .btn-cart {
+  width: 315px!important;
+  height: 57px!important;
+
+  background-color: #F35196!important;
+  color: #fff!important;
+  
+  font-weight: 600!important;
+  font-size: 13px!important;
+  border: none!important;
+  text-transform: uppercase!important;
+  transition: background 0.3s ease;
+}
+
+.product-thumb .btn-cart:hover {
+  background-color:rgb(255, 255, 255)!important;
+  color: black!important;
+} #}
+
+.custom_block{
+  display: flex!important;
+  justify-content: space-between!important;
+}
+
+{# .btn-wishlist::before{
+  font-size: 20px!important;
+  margin-top: 20px!important;
+}
+
+.btn-wishlist::before:hover{
+  color: #F35196!important;
+} #}
+</style>
+
 {% endfor %}

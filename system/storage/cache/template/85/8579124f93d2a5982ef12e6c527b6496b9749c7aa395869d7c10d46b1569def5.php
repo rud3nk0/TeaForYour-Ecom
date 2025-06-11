@@ -62,46 +62,62 @@ class __TwigTemplate_4539afe45a163c51389d5095c142ed2408809f8ee9db588dcdd2cfdd3e3
     ";
         }
         // line 15
-        echo "    <div class=\"third-menu\">";
-        echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 15), "get", [0 => "desktop_top_menu_3"], "method", false, false, false, 15);
-        echo "</div>
-    ";
+        echo "
+    <div class=\"third-menu\">";
         // line 16
-        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 16), "get", [0 => "secondaryMenuPosition"], "method", false, false, false, 16) == "top")) {
-            // line 17
+        echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 16), "get", [0 => "desktop_top_menu_3"], "method", false, false, false, 16);
+        echo "</div>
+
+    ";
+        // line 18
+        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 18), "get", [0 => "secondaryMenuPosition"], "method", false, false, false, 18) == "top")) {
+            // line 19
             echo "      <div class=\"top-menu secondary-menu\">";
-            echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 17), "get", [0 => "desktop_top_menu_2"], "method", false, false, false, 17);
+            echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 19), "get", [0 => "desktop_top_menu_2"], "method", false, false, false, 19);
             echo "</div>
     ";
         }
-        // line 19
+        // line 21
         echo "  </div>
+
   <div class=\"mid-bar navbar-nav\">
-    <div class=\"desktop-logo-wrapper\">
+    ";
+        // line 25
+        echo "    <div class=\"desktop-logo-wrapper\">
       <div id=\"logo\">
         ";
-        // line 23
-        if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 23), "get", [0 => "logo_src"], "method", false, false, false, 23)) {
-            // line 24
-            echo "          <a href=\"";
+        // line 27
+        if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 27), "get", [0 => "logo_src"], "method", false, false, false, 27)) {
+            echo "                        
+          <a href=\"";
+            // line 28
             echo ($context["home"] ?? null);
             echo "\">
             <img src=\"";
-            // line 25
-            echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 25), "get", [0 => "logo_src"], "method", false, false, false, 25);
-            echo "\" ";
-            if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 25), "get", [0 => "logo2x_src"], "method", false, false, false, 25)) {
-                echo "srcset=\"";
-                echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 25), "get", [0 => "logo_src"], "method", false, false, false, 25);
+            // line 29
+            echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 29), "get", [0 => "logo_src"], "method", false, false, false, 29);
+            echo "\"
+                 ";
+            // line 30
+            if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 30), "get", [0 => "logo2x_src"], "method", false, false, false, 30)) {
+                // line 31
+                echo "                   srcset=\"";
+                echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 31), "get", [0 => "logo_src"], "method", false, false, false, 31);
                 echo " 1x, ";
-                echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 25), "get", [0 => "logo2x_src"], "method", false, false, false, 25);
-                echo " 2x\"";
+                echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 31), "get", [0 => "logo2x_src"], "method", false, false, false, 31);
+                echo " 2x\"
+                 ";
             }
-            echo " width=\"";
-            echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 25), "get", [0 => "logo_width"], "method", false, false, false, 25);
-            echo "\" height=\"";
-            echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 25), "get", [0 => "logo_height"], "method", false, false, false, 25);
-            echo "\" alt=\"";
+            // line 33
+            echo "                 width=\"";
+            echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 33), "get", [0 => "logo_width"], "method", false, false, false, 33);
+            echo "\"
+                 height=\"";
+            // line 34
+            echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 34), "get", [0 => "logo_height"], "method", false, false, false, 34);
+            echo "\"
+                 alt=\"";
+            // line 35
             echo ($context["name"] ?? null);
             echo "\" title=\"";
             echo ($context["name"] ?? null);
@@ -109,7 +125,7 @@ class __TwigTemplate_4539afe45a163c51389d5095c142ed2408809f8ee9db588dcdd2cfdd3e3
           </a>
         ";
         } else {
-            // line 28
+            // line 38
             echo "          <h1><a href=\"";
             echo ($context["home"] ?? null);
             echo "\">";
@@ -117,70 +133,104 @@ class __TwigTemplate_4539afe45a163c51389d5095c142ed2408809f8ee9db588dcdd2cfdd3e3
             echo "</a></h1>
         ";
         }
-        // line 30
+        // line 40
         echo "      </div>
     </div>
-    <div class=\"desktop-main-menu-wrapper navbar-nav\">
+
+    ";
+        // line 44
+        echo "    <div class=\"desktop-main-menu-wrapper navbar-nav\">
       ";
-        // line 33
-        echo ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "document", [], "any", false, false, false, 33), "hasClass", [0 => "mobile-header-active"], "method", false, false, false, 33)) ? ("") : (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 33), "get", [0 => "desktop_main_menu"], "method", false, false, false, 33)));
+        // line 45
+        echo ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "document", [], "any", false, false, false, 45), "hasClass", [0 => "mobile-header-active"], "method", false, false, false, 45)) ? ("") : (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 45), "get", [0 => "desktop_main_menu"], "method", false, false, false, 45)));
         echo "
     </div>
 
-    <div class=\"header-cart-group\">
+    ";
+        // line 49
+        echo "    <div class=\"header-cart-group\">
       ";
-        // line 37
-        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 37), "get", [0 => "langPosition"], "method", false, false, false, 37) == "search")) {
-            // line 38
+        // line 50
+        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 50), "get", [0 => "langPosition"], "method", false, false, false, 50) == "search")) {
+            // line 51
             echo "        <div class=\"language-currency top-menu\">
           <div class=\"desktop-language-wrapper\">
             ";
-            // line 40
+            // line 53
             echo ($context["language"] ?? null);
             echo "
           </div>
           <div class=\"desktop-currency-wrapper\">
             ";
-            // line 43
+            // line 56
             echo ($context["currency"] ?? null);
             echo "
           </div>
         </div>
       ";
         }
-        // line 47
-        echo "      ";
-        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 47), "get", [0 => "secondaryMenuPosition"], "method", false, false, false, 47) == "cart")) {
-            // line 48
+        // line 60
+        echo "
+      ";
+        // line 61
+        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 61), "get", [0 => "secondaryMenuPosition"], "method", false, false, false, 61) == "cart")) {
+            // line 62
             echo "        <div class=\"top-menu secondary-menu\">";
-            echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 48), "get", [0 => "desktop_top_menu_2"], "method", false, false, false, 48);
+            echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 62), "get", [0 => "desktop_top_menu_2"], "method", false, false, false, 62);
             echo "</div>
       ";
         }
-        // line 50
-        echo "      ";
-        if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 50), "get", [0 => "catalogSearchStatus"], "method", false, false, false, 50)) {
-            // line 51
-            echo "      <div class=\"desktop-search-wrapper mini-search\">
-        ";
-            // line 52
+        // line 64
+        echo "
+      ";
+        // line 65
+        if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 65), "get", [0 => "catalogSearchStatus"], "method", false, false, false, 65)) {
+            // line 66
+            echo "        <div class=\"desktop-search-wrapper mini-search\">
+          ";
+            // line 67
             echo ($context["search"] ?? null);
             echo "
-      </div>
+        </div>
       ";
         }
-        // line 55
-        echo "      <div class=\"desktop-cart-wrapper\">
+        // line 70
+        echo "
+      <div class=\"desktop-cart-wrapper\">
         ";
-        // line 56
+        // line 72
         echo ($context["cart"] ?? null);
         echo "
       </div>
     </div>
   </div>
 </div>
+<style>
+  .module-master_slider-26 .ms-bullet-selected{
+    width: 63px !important;
+  }
+  .grid-row-top-3{
+    background:rgba(0, 0, 0, 0.12) !important;
+  }
 
-";
+  .product-thumb{
+    width: 315px!important;
+    height: 481px!important;
+    margin-right: 10px!important;
+    background: #212122!important;
+    border: none!important;
+    padding: 0px!important;
+  }
+
+  .btn-wishlist:hover{
+  color: #F35196!important;
+}
+
+.product-label-default.product-label-29{
+  margin: 0!important;
+  padding: 0!important;
+}
+</style>";
     }
 
     public function getTemplateName()
@@ -195,7 +245,7 @@ class __TwigTemplate_4539afe45a163c51389d5095c142ed2408809f8ee9db588dcdd2cfdd3e3
 
     public function getDebugInfo()
     {
-        return array (  176 => 56,  173 => 55,  167 => 52,  164 => 51,  161 => 50,  155 => 48,  152 => 47,  145 => 43,  139 => 40,  135 => 38,  133 => 37,  126 => 33,  121 => 30,  113 => 28,  91 => 25,  86 => 24,  84 => 23,  78 => 19,  72 => 17,  70 => 16,  65 => 15,  58 => 11,  52 => 8,  48 => 6,  46 => 5,  41 => 3,  37 => 1,);
+        return array (  202 => 72,  198 => 70,  192 => 67,  189 => 66,  187 => 65,  184 => 64,  178 => 62,  176 => 61,  173 => 60,  166 => 56,  160 => 53,  156 => 51,  154 => 50,  151 => 49,  145 => 45,  142 => 44,  137 => 40,  129 => 38,  121 => 35,  117 => 34,  112 => 33,  104 => 31,  102 => 30,  98 => 29,  94 => 28,  90 => 27,  86 => 25,  81 => 21,  75 => 19,  73 => 18,  68 => 16,  65 => 15,  58 => 11,  52 => 8,  48 => 6,  46 => 5,  41 => 3,  37 => 1,);
     }
 
     public function getSourceContext()

@@ -75,14 +75,10 @@ class ModelCheckoutOrder extends Model {
 					date_modified            = NOW()
 			");
 		
-			// Генерация custom_order_id в формате TFY-0001
+			
 			$order_id = $this->db->getLastId();
-
-			$custom_order_id = 'TFY-' . str_pad($order_id, 4, '0', STR_PAD_LEFT);
-			$this->db->query("UPDATE `" . DB_PREFIX . "order` SET `custom_order_id` = '" . $this->db->escape($custom_order_id) . "' WHERE `order_id` = '" . (int)$order_id . "'");
 		
 
-		// $order_id = $this->db->getLastId();
 
 		// Products
 		if (isset($data['products'])) {

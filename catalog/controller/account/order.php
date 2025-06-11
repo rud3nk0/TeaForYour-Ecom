@@ -53,8 +53,8 @@ class ControllerAccountOrder extends Controller {
 			$voucher_total = $this->model_account_order->getTotalOrderVouchersByOrderId($result['order_id']);
 
 			$data['orders'][] = array(
-				'order_id'   => $result['order_id'],
-				'custom_order_id'  => $result['custom_order_id'],
+				'order_id' => 'TFY-' . str_pad($result['order_id'], 4, '0', STR_PAD_LEFT),
+				// 'custom_order_id'  => $result['custom_order_id'],
 				'name'       => $result['firstname'] . ' ' . $result['lastname'],
 				'status'     => $result['status'],
 				'date_added' => date($this->language->get('date_format_short'), strtotime($result['date_added'])),

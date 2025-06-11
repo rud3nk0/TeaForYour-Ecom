@@ -1,0 +1,23 @@
+<?php $val = array (
+  'category_id' => '222',
+  'parent_id' => '0',
+  'title' => 'Чай',
+  'items' => 
+  array (
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c222',
+    'dropdown' => 
+    array (
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=222',
+    'total' => '5',
+    'classes' => 
+    array (
+    ),
+  ),
+);

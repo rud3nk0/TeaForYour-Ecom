@@ -1,0 +1,256 @@
+<?php $val = array (
+  'css' => '.accordion-menu-19
+.title{color:rgba(255,255,255,1);background:rgba(27,27,27,1)}.accordion-menu-19>.j-menu>li:hover>a::before{color:rgba(243, 81, 150, 1)}.accordion-menu-19.accordion-menu .j-menu .dropdown>a>.count-badge{margin-right:5px}.accordion-menu-19.accordion-menu .j-menu .dropdown>a>.count-badge+.open-menu+.menu-label{margin-left:0}.accordion-menu-19.accordion-menu .j-menu .dropdown>a::after{display:none}.accordion-menu-19.accordion-menu .j-menu>li>a{font-size:24px;color:rgba(255, 255, 255, 1);font-weight:400;background:rgba(27, 27, 27, 1);padding:10px;padding-left:15px}.accordion-menu-19.accordion-menu .j-menu .links-text{white-space:normal;overflow:visible;text-overflow:initial}.accordion-menu-19.accordion-menu .j-menu>li>a>span>s{font-family:Georgia,serif;font-weight:400}.accordion-menu-19.accordion-menu .j-menu>li>a::before{margin-right:7px;min-width:20px;font-size:18px}.accordion-menu-19.accordion-menu .j-menu > li > a, .accordion-menu-19.accordion-menu.accordion-menu .menu-item > a + div, .accordion-menu-19.accordion-menu .accordion-menu .menu-item>a+div{border-style:none}.accordion-menu-19.accordion-menu .j-menu a .count-badge{display:none;position:relative}.accordion-menu-19.accordion-menu>.j-menu{background:rgba(27, 27, 27, 1)}.accordion-menu-19 .open-menu i::before{content:none !important}.accordion-menu-19 .open-menu[aria-expanded=\'true\'] i::before{content:none !important}.accordion-menu-19 .open-menu{background:rgba(27, 27, 27, 1)}.accordion-menu-19.accordion-menu .j-menu .j-menu .dropdown>a>.count-badge{margin-right:5px}.accordion-menu-19.accordion-menu .j-menu .j-menu .dropdown>a>.count-badge+.open-menu+.menu-label{margin-left:0}.accordion-menu-19.accordion-menu .j-menu .j-menu .dropdown>a::after{display:none}.accordion-menu-19.accordion-menu .j-menu .j-menu>li>a{font-size:13px;color:rgba(105, 105, 115, 1);font-weight:400;text-transform:none;padding:5px}.desktop .accordion-menu-19.accordion-menu .j-menu .j-menu > li:hover > a, .accordion-menu-19.accordion-menu .j-menu .j-menu>li.active>a{color:rgba(51, 51, 51, 1)}.accordion-menu-19.accordion-menu .j-menu .j-menu>li.open>a{font-weight:700}.accordion-menu-19.accordion-menu .j-menu .j-menu .links-text{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.accordion-menu-19.accordion-menu .j-menu .j-menu li .count-badge{font-size:11px;color:rgba(243, 81, 150, 1);font-weight:400;border-radius:50px}.accordion-menu-19.accordion-menu .j-menu .j-menu li .count-zero{display:none !important}.accordion-menu-19.accordion-menu .j-menu .j-menu a .count-badge{display:none;position:relative}.accordion-menu-19 .j-menu > li > div .j-menu>li>a{padding-left:20px !important}.accordion-menu-19 .j-menu > li > div .j-menu>li>div>.j-menu>li>a{padding-left:30px !important}.accordion-menu-19 .j-menu > li > div .j-menu>li>div>.j-menu>li>div>.j-menu>li>a{padding-left:40px !important}.accordion-menu-19 .j-menu > li > div .j-menu>li>div>.j-menu>li>div>.j-menu>li>div>.j-menu>li>a{padding-left:50px !important}.accordion-menu-19>.j-menu{border-radius:px}.accordion-menu-19 .j-menu .accordion-menu-item-1>a{color:rgba(255, 255, 255, 1) !important;background:rgba(0, 0, 0, 0) !important}.desktop .accordion-menu-19 .j-menu .accordion-menu-item-1:hover>a{color:rgba(0, 0, 0, 1) !important}.accordion-menu-19 .j-menu .accordion-menu-item-2>a{color:rgba(255, 255, 255, 1) !important;background:rgba(0, 0, 0, 0) !important}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => '',
+    'status' => true,
+    'id' => 'accordion-menu-686422be62d2c',
+    'module_id' => 19,
+    'classes' => 
+    array (
+      0 => 'accordion-menu',
+      1 => 'accordion-menu-19',
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => 'Herbata',
+        'link' => 
+        array (
+          'type' => 'category',
+          'id' => '222',
+          'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=222',
+          'name' => 'Herbata',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-1',
+          'multi-level' => false,
+          'dropdown' => true,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+          224 => 
+          array (
+            'category_id' => '224',
+            'parent_id' => '222',
+            'title' => 'Black',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c224',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=222_224',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          226 => 
+          array (
+            'category_id' => '226',
+            'parent_id' => '222',
+            'title' => 'Red',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c226',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=222_226',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          225 => 
+          array (
+            'category_id' => '225',
+            'parent_id' => '222',
+            'title' => 'white',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c225',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=222_225',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+      2 => 
+      array (
+        'title' => 'Naczynia',
+        'link' => 
+        array (
+          'type' => 'category',
+          'id' => '223',
+          'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=223',
+          'name' => 'Naczynia',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'accordion-menu-item',
+          2 => 'accordion-menu-item-2',
+          'multi-level' => false,
+          'dropdown' => true,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+          228 => 
+          array (
+            'category_id' => '228',
+            'parent_id' => '223',
+            'title' => 'Tea board',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c228',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=223_228',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          229 => 
+          array (
+            'category_id' => '229',
+            'parent_id' => '223',
+            'title' => 'Tea set',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c229',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=223_229',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          230 => 
+          array (
+            'category_id' => '230',
+            'parent_id' => '223',
+            'title' => 'Teapot',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c230',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=223_230',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+          227 => 
+          array (
+            'category_id' => '227',
+            'parent_id' => '223',
+            'title' => 'Піалки',
+            'items' => 
+            array (
+            ),
+            'classes' => 
+            array (
+              0 => 'menu-item menu-item-c227',
+              'dropdown' => 
+              array (
+              ),
+            ),
+            'link' => 
+            array (
+              'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=223_227',
+              'total' => '0',
+              'classes' => 
+              array (
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);

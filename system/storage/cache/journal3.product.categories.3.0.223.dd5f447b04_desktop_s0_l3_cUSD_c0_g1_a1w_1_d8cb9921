@@ -1,0 +1,215 @@
+<?php $val = array (
+  'category_id' => '223',
+  'parent_id' => '0',
+  'title' => 'Naczynia',
+  'items' => 
+  array (
+    228 => 
+    array (
+      'category_id' => '228',
+      'parent_id' => '223',
+      'title' => 'Tea board',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c228',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=223_228',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    229 => 
+    array (
+      'category_id' => '229',
+      'parent_id' => '223',
+      'title' => 'Tea set',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c229',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=223_229',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    230 => 
+    array (
+      'category_id' => '230',
+      'parent_id' => '223',
+      'title' => 'Teapot',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c230',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=223_230',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    227 => 
+    array (
+      'category_id' => '227',
+      'parent_id' => '223',
+      'title' => 'Піалки',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c227',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=223_227',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c223',
+    'dropdown' => 
+    array (
+      228 => 
+      array (
+        'category_id' => '228',
+        'parent_id' => '223',
+        'title' => 'Tea board',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c228',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=223_228',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      229 => 
+      array (
+        'category_id' => '229',
+        'parent_id' => '223',
+        'title' => 'Tea set',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c229',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=223_229',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      230 => 
+      array (
+        'category_id' => '230',
+        'parent_id' => '223',
+        'title' => 'Teapot',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c230',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=223_230',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      227 => 
+      array (
+        'category_id' => '227',
+        'parent_id' => '223',
+        'title' => 'Піалки',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c227',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=223_227',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=223',
+    'total' => '0',
+    'classes' => 
+    array (
+    ),
+  ),
+);

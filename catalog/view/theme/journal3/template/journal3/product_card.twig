@@ -63,30 +63,16 @@
           </div>
         {% endif %}
 
-        <div class="custom_block"> 
-          <div class="block_left"> 
+
               {% if (j3.settings.getIn(prefix ~ 'NamePosition', _context) == "default") %}
                 <div class="name"><a href="{{ product.href }}">{{ product.name }}</a></div>
               {% endif %}
 
             <div class="description">{{ product.description }}</div>
 
-            {% if product.price %}
-              <div class="price">
-                <div>
-                  {% if product.special %}
-                    <span class="price-new">{{ product.special }}</span> <span class="price-old">{{ product.price }}</span>
-                  {% else %}
-                    <span class="price-normal">{{ product.price }}</span>
-                  {% endif %}
-                </div>
-                {% if product.tax %}
-                  <span class="price-tax">{{ text_tax }}{{ product.tax }}</span>
-                {% endif %}
-              </div>
-            {% endif %}
-          </div>
-          <div class="block_right"> 
+            
+          
+          
               {% if j3.settings.get('catalogWishlistStatus') or j3.settings.get('catalogCompareStatus') %}
                 <div class="wish-group">
                   {% if j3.settings.get('catalogWishlistStatus') %}
@@ -94,8 +80,8 @@
                   {% endif %}
                 </div>
               {% endif %}
-          </div>
-        </div>
+      
+       
           
 
         
@@ -145,6 +131,21 @@
 
             
           </div>
+          {% if product.price %}
+              <div class="price">
+                <div>
+                  {% if product.special %}
+                    <span class="price-new">{{ product.special }}</span> <span class="price-old">{{ product.price }}</span>
+                  {% else %}
+                    <span class="price-normal">{{ product.price }} /100g.</span>
+                  {% endif %}
+                </div>
+                {% if product.tax %}
+                  <span class="price-tax">{{ text_tax }}{{ product.tax }}</span>
+                {% endif %}
+              </div>
+            {% endif %}
+
         </div>
         {% endif %}
 
@@ -232,10 +233,30 @@
   color: black!important;
 } #}
 
-.custom_block{
+.buttons-wrapper{
   display: flex!important;
   justify-content: space-between!important;
 }
+
+.price-normal{
+  margin-top: 20px;
+}
+
+.product-thumb{
+ -webkit-box-shadow: 0px 0px 37px -20px rgba(243, 81, 150, 1);
+-moz-box-shadow: 0px 0px 37px -20px rgba(243, 81, 150, 1);
+box-shadow: 0px 0px 37px -20px rgba(243, 81, 150, 1);
+}
+
+.main-products.product-grid .product-thumb .product-img
+img{
+  width: 261px!important;
+  height: 261px!important;
+  object-fit: cover!important;
+
+}
+
+
 
 {# .btn-wishlist::before{
   font-size: 20px!important;

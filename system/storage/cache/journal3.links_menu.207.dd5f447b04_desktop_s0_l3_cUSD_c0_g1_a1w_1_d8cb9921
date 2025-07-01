@@ -1,0 +1,90 @@
+<?php $val = array (
+  'css' => 'div.links-menu-207 .title.module-title{font-size:20px;color:rgba(255, 255, 255, 1);font-weight:700;background:rgba(0, 0, 0, 0);border-width:0px;padding:0px;white-space:normal;overflow:visible;text-overflow:initial}div.links-menu-207 .title.module-title::after{display:none}div.links-menu-207 .title.module-title.page-title>span::after{display:none}div.links-menu-207 .module-body{display:block;justify-content:flex-start;;-webkit-overflow-scrolling:touch;;column-count:initial;column-gap:30px;column-rule-width:1px;column-rule-style:solid}div.links-menu-207 .menu-item{border-width:1px 0 0 0;flex-grow:0;justify-content:flex-start;width:auto}div.links-menu-207 .menu-item a .links-text{white-space:normal}div.links-menu-207 .menu-item
+a{justify-content:flex-start;width:auto;padding-bottom:4px}div.links-menu-207 .menu-item a:hover .links-text{color:rgba(239, 80, 66, 1);text-decoration:underline}div.links-menu-207 .count-badge{display:none}.phone footer  div.links-menu-207 .module-title::before{display:block}.phone footer  div.links-menu-207 .module-title.closed+.module-body>li{display:none}.phone footer  div.links-menu-207 .module-title.closed{margin:0}div.links-menu-207 .links-menu-item-1{background:rgba(0, 0, 0, 0)}div.links-menu-207 .links-menu-item-1 a .links-text{font-size:18px;color:rgba(165, 165, 165, 1)}div.links-menu-207 .links-menu-item-1:hover a .links-text{color:rgba(243, 81, 150, 1);text-decoration:none}div.links-menu-207 .links-menu-item-2{background:rgba(0, 0, 0, 0)}div.links-menu-207 .links-menu-item-2 a .links-text{font-size:18px;color:rgba(165, 165, 165, 1)}div.links-menu-207 .links-menu-item-2:hover a .links-text{color:rgba(243, 81, 150, 1);text-decoration:none}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'title' => 'Katalog',
+    'status' => true,
+    'id' => 'links-menu-686422be88566',
+    'module_id' => 207,
+    'classes' => 
+    array (
+      0 => 'links-menu',
+      1 => 'links-menu-207',
+    ),
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => 'Herbata',
+        'link' => 
+        array (
+          'type' => 'category',
+          'id' => '222',
+          'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=222',
+          'name' => 'Herbata',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'label' => '',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'links-menu-item',
+          2 => 'links-menu-item-1',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+      2 => 
+      array (
+        'title' => 'Naczynia',
+        'link' => 
+        array (
+          'type' => 'category',
+          'id' => '223',
+          'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=223',
+          'name' => 'Naczynia',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'label' => '',
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'links-menu-item',
+          2 => 'links-menu-item-2',
+          'multi-level' => false,
+          'dropdown' => false,
+          'drop-menu' => false,
+        ),
+        'items' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+);

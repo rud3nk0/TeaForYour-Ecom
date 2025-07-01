@@ -1,0 +1,48 @@
+<?php $val = array (
+  'css' => '.module-title-309{text-align:center}.module-title-309
+.subtitle{display:inline-block;font-size:20px;color:rgba(255, 255, 255, 1);max-width:980px}.module-title-309 .title-divider{display:block;max-width:50px;height:2px;background:rgba(243, 81, 150, 1);margin-top:15px;margin-bottom:15px;margin-left:auto;margin-right:auto;margin-left:0;margin-right:auto}.module-title-309 .title-wrapper{text-align:center;text-align:left}.module-title-309
+h3{font-family:\'Vollkorn\';font-weight:700;font-size:32px}.module-title-309 .title-wrapper
+h3{color:rgba(255, 255, 255, 1)}.module-title-309 .title-wrapper::before{opacity:.05;display:block}@media (max-width: 760px){.module-title-309
+.subtitle{display:inline-block}.module-title-309 .title-wrapper{text-align:left}.module-title-309 .title-divider{margin-left:0;margin-right:auto}}',
+  'fonts' => 
+  array (
+    'fonts' => 
+    array (
+      'Vollkorn' => 
+      array (
+        700 => '700',
+      ),
+    ),
+    'subsets' => 
+    array (
+      'latin-ext' => 'latin-ext',
+    ),
+  ),
+  'settings' => 
+  array (
+    'schedule' => 
+    array (
+      'from' => '',
+      'to' => '',
+      'between' => true,
+    ),
+    'type' => 'custom',
+    'title' => 'Про нас',
+    'subtitle' => 'tea4you.shop to nie tylko sklep z elitarną chińską herbatą, ale dusza tej wspaniałej kultury. Dzielimy się naszą miłością do herbaty i jej wyjątkowego smaku z najgłębszą pasją🐉⛩️
+<br><br>
+
+Tutaj znajdziesz nie tylko szeroką gamę wykwintnych odmian, ale także bezgraniczną miłość i підтримку🤝🏻🫶🏻 Cenimy każdego z Was, naszych cenionych klientów, i jesteśmy gotowi pomóc Ci znaleźć herbatę, która z pewnością zdobędzie Twoje serce ☯️ Odkryj z nami świat chińskiej herbaty i niech każda filiżanka stanie się dla Ciebie wyjątkową podróżą!',
+    'status' => true,
+    'id' => 'title-686422cce8111',
+    'module_id' => 309,
+    'classes' => 
+    array (
+      0 => 'module',
+      1 => 'module-title',
+      2 => 'module-title-309',
+    ),
+    'items' => 
+    array (
+    ),
+  ),
+);

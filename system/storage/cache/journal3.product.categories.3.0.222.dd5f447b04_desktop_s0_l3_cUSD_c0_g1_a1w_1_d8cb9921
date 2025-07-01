@@ -1,0 +1,167 @@
+<?php $val = array (
+  'category_id' => '222',
+  'parent_id' => '0',
+  'title' => 'Herbata',
+  'items' => 
+  array (
+    224 => 
+    array (
+      'category_id' => '224',
+      'parent_id' => '222',
+      'title' => 'Black',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c224',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=222_224',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    226 => 
+    array (
+      'category_id' => '226',
+      'parent_id' => '222',
+      'title' => 'Red',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c226',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=222_226',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+    225 => 
+    array (
+      'category_id' => '225',
+      'parent_id' => '222',
+      'title' => 'white',
+      'items' => 
+      array (
+      ),
+      'classes' => 
+      array (
+        0 => 'menu-item menu-item-c225',
+        'dropdown' => 
+        array (
+        ),
+      ),
+      'link' => 
+      array (
+        'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=222_225',
+        'total' => '0',
+        'classes' => 
+        array (
+        ),
+      ),
+    ),
+  ),
+  'classes' => 
+  array (
+    0 => 'menu-item menu-item-c222',
+    'dropdown' => 
+    array (
+      224 => 
+      array (
+        'category_id' => '224',
+        'parent_id' => '222',
+        'title' => 'Black',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c224',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=222_224',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      226 => 
+      array (
+        'category_id' => '226',
+        'parent_id' => '222',
+        'title' => 'Red',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c226',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=222_226',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+      225 => 
+      array (
+        'category_id' => '225',
+        'parent_id' => '222',
+        'title' => 'white',
+        'items' => 
+        array (
+        ),
+        'classes' => 
+        array (
+          0 => 'menu-item menu-item-c225',
+          'dropdown' => 
+          array (
+          ),
+        ),
+        'link' => 
+        array (
+          'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=222_225',
+          'total' => '0',
+          'classes' => 
+          array (
+          ),
+        ),
+      ),
+    ),
+  ),
+  'link' => 
+  array (
+    'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=222',
+    'total' => '5',
+    'classes' => 
+    array (
+    ),
+  ),
+);

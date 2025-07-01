@@ -289,129 +289,89 @@ $context["product"], "extra_buttons", [], "any", false, false, false, 7)]], "met
             }
             // line 65
             echo "
-        <div class=\"custom_block\"> 
-          <div class=\"block_left\"> 
+
               ";
-            // line 68
-            if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 68), "getIn", [0 => (($context["prefix"] ?? null) . "NamePosition"), 1 => $context], "method", false, false, false, 68) == "default")) {
-                // line 69
+            // line 67
+            if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 67), "getIn", [0 => (($context["prefix"] ?? null) . "NamePosition"), 1 => $context], "method", false, false, false, 67) == "default")) {
+                // line 68
                 echo "                <div class=\"name\"><a href=\"";
-                echo twig_get_attribute($this->env, $this->source, $context["product"], "href", [], "any", false, false, false, 69);
+                echo twig_get_attribute($this->env, $this->source, $context["product"], "href", [], "any", false, false, false, 68);
                 echo "\">";
-                echo twig_get_attribute($this->env, $this->source, $context["product"], "name", [], "any", false, false, false, 69);
+                echo twig_get_attribute($this->env, $this->source, $context["product"], "name", [], "any", false, false, false, 68);
                 echo "</a></div>
               ";
             }
-            // line 71
+            // line 70
             echo "
             <div class=\"description\">";
-            // line 72
-            echo twig_get_attribute($this->env, $this->source, $context["product"], "description", [], "any", false, false, false, 72);
+            // line 71
+            echo twig_get_attribute($this->env, $this->source, $context["product"], "description", [], "any", false, false, false, 71);
             echo "</div>
 
-            ";
-            // line 74
-            if (twig_get_attribute($this->env, $this->source, $context["product"], "price", [], "any", false, false, false, 74)) {
-                // line 75
-                echo "              <div class=\"price\">
-                <div>
-                  ";
-                // line 77
-                if (twig_get_attribute($this->env, $this->source, $context["product"], "special", [], "any", false, false, false, 77)) {
-                    // line 78
-                    echo "                    <span class=\"price-new\">";
-                    echo twig_get_attribute($this->env, $this->source, $context["product"], "special", [], "any", false, false, false, 78);
-                    echo "</span> <span class=\"price-old\">";
-                    echo twig_get_attribute($this->env, $this->source, $context["product"], "price", [], "any", false, false, false, 78);
-                    echo "</span>
-                  ";
-                } else {
-                    // line 80
-                    echo "                    <span class=\"price-normal\">";
-                    echo twig_get_attribute($this->env, $this->source, $context["product"], "price", [], "any", false, false, false, 80);
-                    echo "</span>
-                  ";
-                }
-                // line 82
-                echo "                </div>
-                ";
-                // line 83
-                if (twig_get_attribute($this->env, $this->source, $context["product"], "tax", [], "any", false, false, false, 83)) {
-                    // line 84
-                    echo "                  <span class=\"price-tax\">";
-                    echo ($context["text_tax"] ?? null);
-                    echo twig_get_attribute($this->env, $this->source, $context["product"], "tax", [], "any", false, false, false, 84);
-                    echo "</span>
-                ";
-                }
-                // line 86
-                echo "              </div>
-            ";
-            }
-            // line 88
-            echo "          </div>
-          <div class=\"block_right\"> 
+            
+          
+          
               ";
-            // line 90
-            if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 90), "get", [0 => "catalogWishlistStatus"], "method", false, false, false, 90) || twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 90), "get", [0 => "catalogCompareStatus"], "method", false, false, false, 90))) {
-                // line 91
+            // line 76
+            if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 76), "get", [0 => "catalogWishlistStatus"], "method", false, false, false, 76) || twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 76), "get", [0 => "catalogCompareStatus"], "method", false, false, false, 76))) {
+                // line 77
                 echo "                <div class=\"wish-group\">
                   ";
-                // line 92
-                if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 92), "get", [0 => "catalogWishlistStatus"], "method", false, false, false, 92)) {
-                    // line 93
+                // line 78
+                if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 78), "get", [0 => "catalogWishlistStatus"], "method", false, false, false, 78)) {
+                    // line 79
                     echo "                  <a class=\"btn btn-wishlist\" ";
-                    if (((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 93), "getIn", [0 => (($context["prefix"] ?? null) . "WishlistDisplay"), 1 => $context], "method", false, false, false, 93) == "icon") && twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 93), "getIn", [0 => (($context["prefix"] ?? null) . "WishlistTooltipStatus"), 1 => $context], "method", false, false, false, 93))) {
+                    if (((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 79), "getIn", [0 => (($context["prefix"] ?? null) . "WishlistDisplay"), 1 => $context], "method", false, false, false, 79) == "icon") && twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 79), "getIn", [0 => (($context["prefix"] ?? null) . "WishlistTooltipStatus"), 1 => $context], "method", false, false, false, 79))) {
                         echo " data-toggle=\"tooltip\" data-tooltip-class=\"";
                         echo ((($context["module_id"] ?? null)) ? ((("module-products-" . ($context["module_id"] ?? null)) . " module-products-grid")) : ("product-grid"));
                         echo " wishlist-tooltip\" data-placement=\"";
-                        echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 93), "getIn", [0 => (($context["prefix"] ?? null) . "WishlistTooltipPosition"), 1 => $context], "method", false, false, false, 93);
+                        echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 79), "getIn", [0 => (($context["prefix"] ?? null) . "WishlistTooltipPosition"), 1 => $context], "method", false, false, false, 79);
                         echo "\" title=\"";
                         echo ($context["button_wishlist"] ?? null);
                         echo "\" ";
                     }
                     echo " onclick=\"wishlist.add('";
-                    echo twig_get_attribute($this->env, $this->source, $context["product"], "product_id", [], "any", false, false, false, 93);
+                    echo twig_get_attribute($this->env, $this->source, $context["product"], "product_id", [], "any", false, false, false, 79);
                     echo "')\"><span class=\"btn-text\">";
                     echo ($context["button_wishlist"] ?? null);
                     echo "</span></a>
                   ";
                 }
-                // line 95
+                // line 81
                 echo "                </div>
               ";
             }
-            // line 97
-            echo "          </div>
-        </div>
+            // line 83
+            echo "      
+       
           
 
         
 
         ";
-            // line 128
+            // line 114
             echo "
         ";
-            // line 129
-            if (((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 129), "get", [0 => "catalogCartStatus"], "method", false, false, false, 129) || twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 129), "get", [0 => "catalogWishlistStatus"], "method", false, false, false, 129)) || twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 129), "get", [0 => "catalogCompareStatus"], "method", false, false, false, 129))) {
-                // line 130
+            // line 115
+            if (((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 115), "get", [0 => "catalogCartStatus"], "method", false, false, false, 115) || twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 115), "get", [0 => "catalogWishlistStatus"], "method", false, false, false, 115)) || twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 115), "get", [0 => "catalogCompareStatus"], "method", false, false, false, 115))) {
+                // line 116
                 echo "        <div class=\"buttons-wrapper\">
           <div class=\"button-group\">
             ";
-                // line 132
-                if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 132), "get", [0 => "catalogCartStatus"], "method", false, false, false, 132)) {
-                    // line 133
+                // line 118
+                if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 118), "get", [0 => "catalogCartStatus"], "method", false, false, false, 118)) {
+                    // line 119
                     echo "            <div class=\"cart-group\">
               <div class=\"stepper\">
                 <input type=\"text\" name=\"quantity\" value=\"";
-                    // line 135
-                    echo twig_get_attribute($this->env, $this->source, $context["product"], "minimum", [], "any", false, false, false, 135);
+                    // line 121
+                    echo twig_get_attribute($this->env, $this->source, $context["product"], "minimum", [], "any", false, false, false, 121);
                     echo "\" data-minimum=\"";
-                    echo twig_get_attribute($this->env, $this->source, $context["product"], "minimum", [], "any", false, false, false, 135);
+                    echo twig_get_attribute($this->env, $this->source, $context["product"], "minimum", [], "any", false, false, false, 121);
                     echo "\" class=\"form-control\"/>
                 <input type=\"hidden\" name=\"product_id\" value=\"";
-                    // line 136
-                    echo twig_get_attribute($this->env, $this->source, $context["product"], "product_id", [], "any", false, false, false, 136);
+                    // line 122
+                    echo twig_get_attribute($this->env, $this->source, $context["product"], "product_id", [], "any", false, false, false, 122);
                     echo "\"/>
                 <span>
                 <i class=\"fa fa-angle-up\"></i>
@@ -419,18 +379,18 @@ $context["product"], "extra_buttons", [], "any", false, false, false, 7)]], "met
               </span>
               </div>
               <a class=\"btn btn-cart\" ";
-                    // line 142
-                    if (((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 142), "getIn", [0 => (($context["prefix"] ?? null) . "CartDisplay"), 1 => $context], "method", false, false, false, 142) == "icon") && twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 142), "getIn", [0 => (($context["prefix"] ?? null) . "CartTooltipStatus"), 1 => $context], "method", false, false, false, 142))) {
+                    // line 128
+                    if (((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 128), "getIn", [0 => (($context["prefix"] ?? null) . "CartDisplay"), 1 => $context], "method", false, false, false, 128) == "icon") && twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 128), "getIn", [0 => (($context["prefix"] ?? null) . "CartTooltipStatus"), 1 => $context], "method", false, false, false, 128))) {
                         echo " data-toggle=\"tooltip\" data-tooltip-class=\"";
                         echo ((($context["module_id"] ?? null)) ? ((("module-products-" . ($context["module_id"] ?? null)) . " module-products-grid")) : ("product-grid"));
                         echo " cart-tooltip\" data-placement=\"";
-                        echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 142), "getIn", [0 => (($context["prefix"] ?? null) . "CartTooltipPosition"), 1 => $context], "method", false, false, false, 142);
+                        echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["j3"] ?? null), "settings", [], "any", false, false, false, 128), "getIn", [0 => (($context["prefix"] ?? null) . "CartTooltipPosition"), 1 => $context], "method", false, false, false, 128);
                         echo "\" title=\"";
                         echo ($context["button_cart"] ?? null);
                         echo "\" ";
                     }
                     echo " onclick=\"cart.add('";
-                    echo twig_get_attribute($this->env, $this->source, $context["product"], "product_id", [], "any", false, false, false, 142);
+                    echo twig_get_attribute($this->env, $this->source, $context["product"], "product_id", [], "any", false, false, false, 128);
                     echo "', \$(this).closest('.product-thumb').find('.button-group input[name=\\'quantity\\']').val());\" data-loading-text=\"<span class='btn-text'>";
                     echo ($context["button_cart"] ?? null);
                     echo "</span>\"><span class=\"btn-text\">";
@@ -439,32 +399,93 @@ $context["product"], "extra_buttons", [], "any", false, false, false, 7)]], "met
             </div>
             ";
                 }
-                // line 145
+                // line 131
                 echo "
             
           </div>
+          ";
+                // line 134
+                if (twig_get_attribute($this->env, $this->source, $context["product"], "price", [], "any", false, false, false, 134)) {
+                    // line 135
+                    echo "              <div class=\"price\">
+                <div>
+                  ";
+                    // line 137
+                    if (twig_get_attribute($this->env, $this->source, $context["product"], "special", [], "any", false, false, false, 137)) {
+                        // line 138
+                        echo "                    <span class=\"price-new\">";
+                        echo twig_get_attribute($this->env, $this->source, $context["product"], "special", [], "any", false, false, false, 138);
+                        echo "</span> <span class=\"price-old\">";
+                        echo twig_get_attribute($this->env, $this->source, $context["product"], "price", [], "any", false, false, false, 138);
+                        echo "</span>
+                  ";
+                    } else {
+                        // line 140
+                        echo "                    <span class=\"price-normal\">";
+                        echo twig_get_attribute($this->env, $this->source, $context["product"], "price", [], "any", false, false, false, 140);
+                        echo " /100g.</span>
+                  ";
+                    }
+                    // line 142
+                    echo "                </div>
+                ";
+                    // line 143
+                    if (twig_get_attribute($this->env, $this->source, $context["product"], "tax", [], "any", false, false, false, 143)) {
+                        // line 144
+                        echo "                  <span class=\"price-tax\">";
+                        echo ($context["text_tax"] ?? null);
+                        echo twig_get_attribute($this->env, $this->source, $context["product"], "tax", [], "any", false, false, false, 144);
+                        echo "</span>
+                ";
+                    }
+                    // line 146
+                    echo "              </div>
+            ";
+                }
+                // line 148
+                echo "
         </div>
         ";
             }
-            // line 150
+            // line 151
             echo "
         ";
-            // line 166
+            // line 167
             echo "      </div>
     </div>
   </div>
 
 <style> 
  ";
-            // line 234
+            // line 235
             echo "
-.custom_block{
+.buttons-wrapper{
   display: flex!important;
   justify-content: space-between!important;
 }
 
+.price-normal{
+  margin-top: 20px;
+}
+
+.product-thumb{
+ -webkit-box-shadow: 0px 0px 37px -20px rgba(243, 81, 150, 1);
+-moz-box-shadow: 0px 0px 37px -20px rgba(243, 81, 150, 1);
+box-shadow: 0px 0px 37px -20px rgba(243, 81, 150, 1);
+}
+
+.main-products.product-grid .product-thumb .product-img
+img{
+  width: 261px!important;
+  height: 261px!important;
+  object-fit: cover!important;
+
+}
+
+
+
 ";
-            // line 248
+            // line 269
             echo "</style>
 
 ";
@@ -486,7 +507,7 @@ $context["product"], "extra_buttons", [], "any", false, false, false, 7)]], "met
 
     public function getDebugInfo()
     {
-        return array (  468 => 248,  460 => 234,  453 => 166,  450 => 150,  443 => 145,  423 => 142,  414 => 136,  408 => 135,  404 => 133,  402 => 132,  398 => 130,  396 => 129,  393 => 128,  385 => 97,  381 => 95,  363 => 93,  361 => 92,  358 => 91,  356 => 90,  352 => 88,  348 => 86,  341 => 84,  339 => 83,  336 => 82,  330 => 80,  322 => 78,  320 => 77,  316 => 75,  314 => 74,  309 => 72,  306 => 71,  298 => 69,  296 => 68,  291 => 65,  287 => 63,  279 => 61,  276 => 60,  268 => 58,  266 => 57,  263 => 56,  261 => 55,  256 => 52,  250 => 50,  248 => 49,  245 => 48,  241 => 46,  228 => 44,  224 => 43,  221 => 42,  219 => 41,  213 => 37,  210 => 36,  188 => 34,  164 => 32,  161 => 31,  159 => 30,  156 => 29,  134 => 27,  110 => 25,  108 => 24,  99 => 22,  96 => 21,  78 => 18,  75 => 17,  73 => 16,  70 => 15,  62 => 13,  60 => 12,  53 => 10,  50 => 9,  48 => 7,  47 => 6,  46 => 5,  45 => 4,  43 => 3,  39 => 2,  37 => 1,);
+        return array (  489 => 269,  461 => 235,  454 => 167,  451 => 151,  446 => 148,  442 => 146,  435 => 144,  433 => 143,  430 => 142,  424 => 140,  416 => 138,  414 => 137,  410 => 135,  408 => 134,  403 => 131,  383 => 128,  374 => 122,  368 => 121,  364 => 119,  362 => 118,  358 => 116,  356 => 115,  353 => 114,  345 => 83,  341 => 81,  323 => 79,  321 => 78,  318 => 77,  316 => 76,  308 => 71,  305 => 70,  297 => 68,  295 => 67,  291 => 65,  287 => 63,  279 => 61,  276 => 60,  268 => 58,  266 => 57,  263 => 56,  261 => 55,  256 => 52,  250 => 50,  248 => 49,  245 => 48,  241 => 46,  228 => 44,  224 => 43,  221 => 42,  219 => 41,  213 => 37,  210 => 36,  188 => 34,  164 => 32,  161 => 31,  159 => 30,  156 => 29,  134 => 27,  110 => 25,  108 => 24,  99 => 22,  96 => 21,  78 => 18,  75 => 17,  73 => 16,  70 => 15,  62 => 13,  60 => 12,  53 => 10,  50 => 9,  48 => 7,  47 => 6,  46 => 5,  45 => 4,  43 => 3,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()

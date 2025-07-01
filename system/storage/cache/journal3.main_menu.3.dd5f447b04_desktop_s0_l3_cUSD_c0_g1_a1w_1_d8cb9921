@@ -1,0 +1,148 @@
+<?php $val = array (
+  'css' => 'div.main-menu.main-menu-3 > .j-menu .menu-item.main-menu-item-1>a::before{top:-1px}div.main-menu.main-menu-3 > .j-menu li.main-menu-item-1>a{color:rgba(255, 255, 255, 1) !important}.desktop div.main-menu.main-menu-3 > .j-menu li.main-menu-item-1:hover>a{color:rgba(243, 81, 150, 1) !important}.desktop-main-menu-wrapper .main-menu-3 .mega-custom.main-menu-item-1 .mega-menu-content{width:500px;position:relative;left:0;transform:none}.desktop-main-menu-wrapper .main-menu-3 .mega-custom.main-menu-item-1>.dropdown-menu::before{left:0;transform:none}.desktop-main-menu-wrapper .main-menu-3 > .j-menu li.main-menu-item-1:not(.mega-fullwidth)>.dropdown-menu::before{display:block;border-bottom-color:rgba(44, 54, 64, 1)}.desktop-main-menu-wrapper .main-menu-3 > .j-menu li.main-menu-item-1.multi-level .dropdown-menu ul li .dropdown-menu{left:100%}.desktop-main-menu-wrapper .main-menu-3 .main-menu-item-1>a>.menu-label{margin-right:calc(0px - (-10px));margin-top:13px}.main-menu-3 .mega-menu.main-menu-item-2 .dropdown-menu{width:800px}.desktop-header-active .flyout-menu-3 .main-menu-item-2.multi-level .dropdown-menu{left:100%}div.main-menu.main-menu-3 > .j-menu li.main-menu-item-3>a{color:rgba(255, 255, 255, 1) !important}.desktop div.main-menu.main-menu-3 > .j-menu li.main-menu-item-3:hover>a{color:rgba(243, 81, 150, 1) !important}.desktop-main-menu-wrapper .menu-fullwidth>.j-dropdown{width:100vw;left:50%;margin-left:-50vw}.desktop-main-menu-wrapper .main-menu-3 .mega-custom.main-menu-item-3 .mega-menu-content{width:500px;position:relative;left:0;transform:none}.desktop-main-menu-wrapper .main-menu-3 .mega-custom.main-menu-item-3>.dropdown-menu::before{left:0;transform:none}.desktop-main-menu-wrapper .main-menu-3 > .j-menu li.main-menu-item-3:not(.mega-fullwidth)>.dropdown-menu::before{display:block;margin-top:-10px}.desktop-main-menu-wrapper .main-menu-3 > .j-menu li.main-menu-item-3.multi-level .dropdown-menu ul li .dropdown-menu{left:100%}.desktop-main-menu-wrapper .main-menu-3 .main-menu-item-3>a>.menu-label{margin-right:calc(0px - (-10px));margin-top:13px}div.main-menu.main-menu-3 > .j-menu li.main-menu-item-4>a{color:rgba(255, 255, 255, 1) !important}.desktop div.main-menu.main-menu-3 > .j-menu li.main-menu-item-4:hover>a{color:rgba(243, 81, 150, 1) !important}.desktop-main-menu-wrapper .menu-fullwidth>.j-dropdown{width:100vw;left:50%;margin-left:-50vw}.desktop-main-menu-wrapper .main-menu-3 .mega-custom.main-menu-item-4 .mega-menu-content{width:500px;position:relative;left:0;transform:none}.desktop-main-menu-wrapper .main-menu-3 .mega-custom.main-menu-item-4>.dropdown-menu::before{left:0;transform:none}.desktop-main-menu-wrapper .main-menu-3 > .j-menu li.main-menu-item-4:not(.mega-fullwidth)>.dropdown-menu::before{display:block;margin-top:-10px}.desktop-main-menu-wrapper .main-menu-3 > .j-menu li.main-menu-item-4.multi-level .dropdown-menu ul li .dropdown-menu{left:100%}',
+  'fonts' => 
+  array (
+  ),
+  'settings' => 
+  array (
+    'status' => true,
+    'id' => 'main-menu',
+    'module_id' => 3,
+    'classes' => 
+    array (
+      0 => 'main-menu',
+      1 => 'main-menu-3',
+      'accordion-menu' => false,
+    ),
+    'display' => 'dropdown',
+    'items' => 
+    array (
+      1 => 
+      array (
+        'title' => 'Herbata',
+        'label' => '',
+        'link' => 
+        array (
+          'type' => 'category',
+          'id' => '222',
+          'href' => 'https://teaforyou-ecom/index.php?route=product/category&amp;path=222',
+          'name' => 'Herbata',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => '',
+        'mobileOpen' => false,
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'main-menu-item',
+          2 => 'main-menu-item-1',
+          'multi-level' => true,
+          'dropdown' => true,
+          'drop-menu' => 
+          array (
+            0 => false,
+            1 => false,
+          ),
+          'icon-only' => false,
+          'menu-fullwidth' => false,
+          'mega-fullwidth' => false,
+          'mega-custom' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'isOpen' => false,
+      ),
+      3 => 
+      array (
+        'title' => 'Naczynia',
+        'label' => '',
+        'link' => 
+        array (
+          'type' => 'category',
+          'id' => '109',
+          'href' => '',
+          'name' => '',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => '',
+        'mobileOpen' => false,
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'main-menu-item',
+          2 => 'main-menu-item-3',
+          'multi-level' => true,
+          'dropdown' => false,
+          'drop-menu' => 
+          array (
+            0 => false,
+            1 => false,
+          ),
+          'icon-only' => false,
+          'menu-fullwidth' => false,
+          'mega-fullwidth' => false,
+          'mega-custom' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'isOpen' => false,
+      ),
+      4 => 
+      array (
+        'title' => 'FAQ',
+        'label' => '',
+        'link' => 
+        array (
+          'type' => 'information',
+          'id' => '7',
+          'href' => 'https://teaforyou-ecom/index.php?route=information/information&amp;information_id=7',
+          'name' => 'Frequently Asked Questions',
+          'total' => NULL,
+          'attrs' => 
+          array (
+          ),
+          'classes' => 
+          array (
+          ),
+        ),
+        'type' => '',
+        'mobileOpen' => false,
+        'classes' => 
+        array (
+          0 => 'menu-item',
+          1 => 'main-menu-item',
+          2 => 'main-menu-item-4',
+          'multi-level' => true,
+          'dropdown' => false,
+          'drop-menu' => 
+          array (
+            0 => false,
+            1 => false,
+          ),
+          'icon-only' => false,
+          'menu-fullwidth' => false,
+          'mega-fullwidth' => false,
+          'mega-custom' => false,
+        ),
+        'items' => 
+        array (
+        ),
+        'isOpen' => false,
+      ),
+    ),
+  ),
+);
